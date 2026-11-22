@@ -1,0 +1,17 @@
+[project]
+name = "vision-eye"
+version = "0.1.0"
+description = "Computer vision eye task project"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "torch",
+    "torchvision",
+    "mediapipe",
+    "pillow",
+    "scipy",
+    "imageio-ffmpeg>=0.8.1",
+    "python-dotenv",
+    "ultralytics",
+]
